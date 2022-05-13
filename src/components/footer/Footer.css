@@ -1,0 +1,78 @@
+.footer_wrapper {
+    width: 100vw;
+    height: 270px;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.footer {
+    display: flex;
+    width: 1369px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.nsuLogo {
+    width: 200px;
+    height: 60px;
+}
+
+.footer_logoBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    height: 150px;
+}
+
+.year {
+    margin-top: 20px;
+}
+
+.footer_informationBlock {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    height: 150px;
+    padding: 22px;
+}
+
+.footer_navblock {
+    display: flex;
+
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_navlink {
+    color: white;
+    text-decoration: none;
+    width: 160px;
+}
+
+.footer_registration-navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_navblockOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer_navblockSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,118 @@
+.pWrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pTitle {
+    margin: 10px 0px;
+    font-size: 30px;
+    color: rgb(123, 164, 40);
+}
+
+.pContainer {
+    width: 1351px;
+    margin: 10px 0px;
+}
+
+.pBlockOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.pBtns_Block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+
+.pDeleteBtn {
+    background-color: rgb(196, 196, 196);
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 12px;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.pDeleteBtn:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: red;
+    color: white;
+}
+
+.pDeleteBtn:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.pDeleteBtn:active {
+    transform: translateY(-0.5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pUpdateBtn {
+    background-color: rgb(196, 196, 196);
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 12px;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.pUpdateBtn:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: rgb(123, 164, 40);
+    color: white;
+}
+
+.pUpdateBtn:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.pUpdateBtn:active {
+    transform: translateY(-0.5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pBlockSecond {
+    margin: 10px 0;
+}
+
+.pInfo_item {
+    margin: 6px 0px;
+    font-size: 18px;
+}

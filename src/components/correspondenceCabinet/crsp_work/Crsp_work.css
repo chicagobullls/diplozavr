@@ -1,0 +1,11 @@
+.crsp_work-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.ww_img {
+    width: 30px;
+    height: 30px;
+}

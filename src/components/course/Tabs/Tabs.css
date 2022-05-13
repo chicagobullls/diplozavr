@@ -1,0 +1,59 @@
+.Tabs{
+    counter-reset: css-counter 0;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 241, 241)
+}
+.Tab{
+    width: 250px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    counter-increment: css-counter 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Tab_active{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    counter-increment: css-counter 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.title{
+    margin-left: 10px;
+    font-size: 20px;
+    width: 150px;
+}
+.Tab::before{
+    content: counter(css-counter);
+    width: 60px;
+    height: 60px;
+    background-color: rgb(114, 200, 30);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.Tab_active::before{
+    content: counter(css-counter);
+    width: 60px;
+    height: 60px;
+    background-color: rgb(114, 200, 30);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}

@@ -1,0 +1,33 @@
+.FullTime {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FullTime_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1351px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Fblock_wrapper {
+    width: 1100px;
+    background-color: rgb(241, 241, 241);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.Fblock_table {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Fblock_material_table {
+    width: 800px;
+    height: 100%;
+}

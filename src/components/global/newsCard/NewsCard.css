@@ -1,0 +1,54 @@
+.news_card:not(.newscard_image) {
+    width: 363px;
+    height: auto;
+    border: 2px #e1e1e1 solid;
+    padding: 15px;
+    margin: 8px 0px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.news_card:hover {
+    transition: 0.4s;
+    ;
+    border: 2px #72c81e solid;
+}
+
+.newscard_image {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 359px;
+
+}
+
+.newscard_img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.newsсard_title {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #272727;
+    text-decoration: none;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.newscard_date {
+    color: #666666;
+    font-size: 16px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.newscard_discription {
+    padding: 10px;
+}

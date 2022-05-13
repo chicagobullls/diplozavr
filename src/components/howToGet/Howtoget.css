@@ -1,0 +1,42 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_wrapper{
+    width: 713px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.global_title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(123, 164, 40);
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    padding: 20px;
+}
+.contacts span{
+    margin-top: 20px;
+}
+.title2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.discription{
+    margin-top: 20px;
+}
+.discription span{
+    margin-top: 10px;
+}
+.discription p {
+    margin-top: 8px;
+}

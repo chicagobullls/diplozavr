@@ -1,0 +1,49 @@
+.admin_wrapper{
+    width: 100vw;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.admin_container{
+    width: 1300px;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;   
+}
+.admin_label{
+    font-size: 23px;
+    color:rgb(114, 200, 30) ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.admin_main-title{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.slider_block{
+    min-width: 600px;
+    
+}
+.admin_event-block{
+display: flex;
+  width: 1300px;
+}
+.event_wrapper{
+    display: flex;
+    max-height:500px ;
+    width: 1300px;
+    overflow-x: auto !important;
+}
+.admin_news-block{
+    display: flex;
+    width: 1300px;
+}
+.news_wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    overflow-x: auto !important;
+    
+}

@@ -1,0 +1,62 @@
+.login_wrapp {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_title {
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: rgb(123, 164, 40);
+    font-weight: bold;
+}
+
+.loginp {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.log_form p::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+.log_form p {
+    color: #ff0000;
+    width: 300px;
+}
+
+.log_form label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.log_discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 20px;
+    width: 500px;
+}

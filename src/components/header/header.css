@@ -1,0 +1,106 @@
+.post-element {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_wrapper {
+    width: 1351px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.header {
+    width: 1351px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_global {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.navlink {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: sans-serif;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: rgb(104, 104, 104);
+    transition: 0.3s;
+}
+
+.registration-navlink {
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 140px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.registration-navlink:hover {
+    color: white;
+    background-color: rgb(104, 104, 104);
+    transition: 0.3s;
+}
+
+.header_btn {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 60px;
+}
+
+.navLink_wrapper {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.navLink_wrapper:hover {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    transition: 0.3s;
+}
+
+.header_weather {
+    font-size: 24px;
+    color: rgb(164, 152, 147);
+}

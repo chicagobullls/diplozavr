@@ -1,0 +1,135 @@
+{
+    "school": [
+        {
+            "id": 1,
+            "title": "МБОУ СОШ №2"
+        },
+        {
+            "id": 2,
+            "title": "МБОУ СОШ №3"
+        },
+        {
+            "id": 3,
+            "title": "МБОУ СОШ №6"
+        },
+        {
+            "id": 4,
+            "title": "МБОУ СОШ №1"
+        },
+        {
+            "id": 5,
+            "title": "Лицей "
+        }
+    ],
+    "news": [
+        {
+            "id": 1,
+            "date": "02.02.2002",
+            "title": "Заголовок",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DJG6WtZe6_YHEjFBQjtSxMPnC6ABv_b9weWCUBoNMwnlMsDKkMXx4nbaSeQYIHTo-Do&usqp=CAU",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описанописанито описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание.Это описание."
+        },
+        {
+            "id": 2,
+            "date": "02.02.2002",
+            "title": "Заголовок",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DJG6WtZe6_YHEjFBQjtSxMPnC6ABv_b9weWCUBoNMwnlMsDKkMXx4nbaSeQYIHTo-Do&usqp=CAU",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        },
+        {
+            "id": 3,
+            "date": "02.02.2002",
+            "title": "Заголовок",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DJG6WtZe6_YHEjFBQjtSxMPnC6ABv_b9weWCUBoNMwnlMsDKkMXx4nbaSeQYIHTo-Do&usqp=CAU",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание.:"
+        },
+        {
+            "id": 4,
+            "date": "02.02.2002",
+            "title": "Заголовок",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DJG6WtZe6_YHEjFBQjtSxMPnC6ABv_b9weWCUBoNMwnlMsDKkMXx4nbaSeQYIHTo-Do&usqp=CAU",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        },
+        {
+            "id": 5,
+            "date": "02.02.2002",
+            "title": "Заголовок",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DJG6WtZe6_YHEjFBQjtSxMPnC6ABv_b9weWCUBoNMwnlMsDKkMXx4nbaSeQYIHTo-Do&usqp=CAU",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        }
+    ],
+    "proffesors": [
+        {
+            "id": 1,
+            "title": "Никитина"
+        },
+        {
+            "id": 2,
+            "title": "Олегова"
+        },
+        {
+            "id": 3,
+            "title": "Финтуфаев"
+        },
+        {
+            "id": 4,
+            "title": "Гнишина"
+        },
+        {
+            "id": 5,
+            "title": "Шмелёва"
+        }
+    ],
+    "profile": [
+        {
+            "id": 1,
+            "name": "Кружок следопытов"
+        },
+        {
+            "id": 1,
+            "name": "Кружок геологов"
+        },
+        {
+            "id": 1,
+            "name": "Кружок кладоискателей"
+        },
+        {
+            "id": 1,
+            "name": "Кружок ученых"
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "title": "Новость 1",
+            "date": "02.02.2002",
+            "time": "10:10",
+            "img": "https://www.hotel-albatros.ru/upload/resize_cache/iblock/3c5/600_340_2/3c58559118dc22d6649c33ea2e4dd3b9.jpg",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        },
+        {
+            "id": 2,
+            "title": "Новость 2",
+            "date": "02.02.2002",
+            "time": "10:10",
+            "img": "https://www.hotel-albatros.ru/upload/resize_cache/iblock/3c5/600_340_2/3c58559118dc22d6649c33ea2e4dd3b9.jpg",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        },
+        {
+            "id": 3,
+            "title": "Новость 3",
+            "date": "02.02.2002",
+            "time": "10:10",
+            "img": "https://www.hotel-albatros.ru/upload/resize_cache/iblock/3c5/600_340_2/3c58559118dc22d6649c33ea2e4dd3b9.jpg",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        },
+        {
+            "id": 4,
+            "title": "Новость 4",
+            "date": "02.02.2002",
+            "time": "10:10",
+            "img": "https://www.hotel-albatros.ru/upload/resize_cache/iblock/3c5/600_340_2/3c58559118dc22d6649c33ea2e4dd3b9.jpg",
+            "discription": "Это описание.Это описание.Это описание.Это описание.Это описание."
+        }
+    ]
+}
