@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: "Acrom W00 Bold";
+    src: url("./fonts/007e3053464a1b5fcb56734c7c18eabe.eot");
+    /* IE9*/
+    src: url("./fonts/007e3053464a1b5fcb56734c7c18eabe.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("./fonts/007e3053464a1b5fcb56734c7c18eabe.woff2") format("woff2"),
+        /* chrome、firefox */
+        url("./fonts/007e3053464a1b5fcb56734c7c18eabe.woff") format("woff"),
+        /* chrome、firefox */
+        url("./fonts/007e3053464a1b5fcb56734c7c18eabe.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("./fonts/007e3053464a1b5fcb56734c7c18eabe.svg#Acrom W00 Bold") format("svg");
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('./fonts/Acrom-Light.eot');
+    src: local('./fonts/Acrom Light'), local('Acrom-Light'),
+        url('./fonts/Acrom-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Acrom-Light.woff2') format('woff2'),
+        url('./fonts/Acrom-Light.woff') format('woff'),
+        url('./fonts/Acrom-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('./fonts/Acrom-Thin.eot');
+    src: local('./fonts/Acrom Thin'), local('Acrom-Thin'),
+        url('./fonts/Acrom-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Acrom-Thin.woff2') format('woff2'),
+        url('./fonts/Acrom-Thin.woff') format('woff'),
+        url('./fonts/Acrom-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('./fonts/Acrom-Bold.eot');
+    src: local('./fonts/Acrom Bold'), local('Acrom-Bold'),
+        url('./fonts/Acrom-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Acrom-Bold.woff2') format('woff2'),
+        url('./fonts/Acrom-Bold.woff') format('woff'),
+        url('./fonts/Acrom-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('./fonts/Acrom-Regular.eot');
+    src: local('Acrom'), local('Acrom-Regular'),
+        url('./fonts/Acrom-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Acrom-Regular.woff2') format('woff2'),
+        url('./fonts/Acrom-Regular.woff') format('woff'),
+        url('./fonts/Acrom-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('./fonts/Acrom-ExtraBold.eot');
+    src: local('./fonts/Acrom ExtraBold'), local('Acrom-ExtraBold'),
+        url('./fonts/Acrom-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Acrom-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Acrom-ExtraBold.woff') format('woff'),
+        url('./fonts/Acrom-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acrom';
+    src: url('./fonts/Acrom-Medium.eot');
+    src: local('./fonts/Acrom Medium'), local('Acrom-Medium'),
+        url('./fonts/Acrom-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Acrom-Medium.woff2') format('woff2'),
+        url('./fonts/Acrom-Medium.woff') format('woff'),
+        url('./fonts/Acrom-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

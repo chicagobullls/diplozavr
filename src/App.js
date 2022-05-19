@@ -18,6 +18,7 @@ import AdminPanel from './components/adminPanel/AdminPanel';
 import CorrespondenceCabinet from './components/correspondenceCabinet/CorrespondenceCabinet';
 import ExpertCabinet from './components/expertCabinet/ExpertCabinet';
 import ProfessorCabinet from './components/professorCabinet/ProfessorCabinet';
+import './components/fonts/fonts.css'
 
 function App() {
   return (

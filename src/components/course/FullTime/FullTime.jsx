@@ -17,14 +17,20 @@ const FullTime = () => {
                         <div className="Fblock_material_table">
                             <Table columns={[
                                 { title: 'id', field: 'id', type: 'numeric' },
-                                { title: 'lastname', field: 'lastname' },
-                                { title: 'name', field: 'name' },
-                                { title: 'patronomyc', field: 'patronomyc' },
-                                { title: 'city', field: 'city' },
-                                { title: 'Profile', field: 'Profile' },
+                                { title: 'Фамилия', field: 'lastname' },
+                                { title: 'Имя', field: 'name' },
+                                { title: 'Отчество', field: 'patronomyc' },
+                                { title: 'Город', field: 'city' },
+                                { title: 'Кружок', field: 'Profile' },
                             ]}
                                 data={
-                                    [{ id: '1', lastname: 'Дергунов', name: 'Mehmet', patronomyc: 'Baran', city: 'PITER', Profile: "ЕНОТИК-АБРИКОСИК" }]
+                                    [
+                                        { id: '1', lastname: 'Астафьев ', name: 'Ярослав ', patronomyc: 'Янович', city: 'Новосибирск', Profile: "Геологический" },
+                                        { id: '2', lastname: 'Касаткин ', name: 'Лев ', patronomyc: 'Александрович', city: 'Новосибирск', Profile: "Геологический" },
+                                        { id: '3', lastname: 'Васильев ', name: 'Илья ', patronomyc: 'Матвеевич', city: 'Новосибирск', Profile: "Геологический" },
+                                        { id: '4', lastname: 'Кузнецова ', name: 'Ксения ', patronomyc: 'Никитична', city: 'Новосибирск', Profile: "Геологический" },
+                                        { id: '5', lastname: 'Лукьянов ', name: 'Иван ', patronomyc: 'Александрович', city: 'Новосибирск', Profile: "Геологический" },
+                                    ]
                                 } />
                         </div>
                     </div>

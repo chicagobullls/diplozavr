@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom'
-import logo from '../../utiles/logo.png'
+import logo from '../../utiles/logo1.jpg'
 import './header.css'
 
 const Header = () => {
@@ -28,12 +28,12 @@ const Header = () => {
             </div>
             <div className='post-element'>
                 <div className="header_wrapper">
-                    <NavLink to="/olimp" className="navlink">Олимпиаднику</NavLink>
-                    <NavLink to="/FullTime" className="navlink">Очный конкурс</NavLink>
-                    <NavLink to="/Correspondence" className="navlink">Заочный конкурс</NavLink>
-                    <NavLink to="/howToGet" className="navlink">Как добраться</NavLink>
-                    <NavLink to="/switch" className="navlink">Регистрация</NavLink>
-                    <NavLink to="/login" className="navlink">Авторизация</NavLink>
+                    <NavLink to="/olimp" className="navlink">ОЛИМПИАДНИКУ</NavLink>
+                    <NavLink to="/FullTime" className="navlink">ОЧНЫЙ КОНКУРС</NavLink>
+                    <NavLink to="/Correspondence" className="navlink">ЗАОЧНЫЙ КОНКУРС</NavLink>
+                    <NavLink to="/howToGet" className="navlink">КАК ДОБРАТЬСЯ</NavLink>
+                    <NavLink to="/switch" className="navlink">РЕГИСТРАЦИЯ</NavLink>
+                    <NavLink to="/login" className="navlink">АВТОРИЗАЦИЯ</NavLink>
                 </div>
             </div>
         </div>

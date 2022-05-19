@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
+
 }
 
 .footer {
@@ -32,6 +33,7 @@
 
 .year {
     margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .footer_informationBlock {
@@ -41,6 +43,7 @@
     justify-content: space-between;
     height: 150px;
     padding: 22px;
+    font-family: 'PT Sans';
 }
 
 .footer_navblock {
@@ -51,17 +54,20 @@
 .link {
     color: white;
     text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .footer_navlink {
     color: white;
     text-decoration: none;
     width: 160px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .footer_registration-navlink {
     color: white;
     text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .footer_navblockOne {
@@ -69,10 +75,12 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .footer_navblockSecond {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'PT Sans', sans-serif;
 }

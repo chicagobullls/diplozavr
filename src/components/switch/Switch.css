@@ -20,7 +20,10 @@
 }
 
 .switch_title {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: "Acrom W00 Bold";
+    color: #272727;
+
 }
 
 .switch_btn {
@@ -30,10 +33,14 @@
     justify-content: space-between;
     flex-direction: column;
     width: 350px;
+    font-family: "Acrom W00 Bold";
+
 }
 
 .switch_navlink {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
     background: rgb(123, 164, 40);
     color: white;
     text-transform: uppercase;
@@ -42,4 +49,5 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 2px;
+    font-family: "Acrom W00 Bold";
 }

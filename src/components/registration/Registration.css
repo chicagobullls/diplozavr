@@ -38,6 +38,7 @@
   font-size: 25px;
   color: rgb(123, 164, 40);
   font-weight: bold;
+  font-family: "Acrom W00 Bold";
 }
 
 input {
@@ -69,8 +70,9 @@ select {
   margin-bottom: 13px;
   margin-top: 10px;
   color: rgb(0, 0, 0);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 200;
+  font-family: 'PT Sans', sans-serif;
 }
 
 input[type="submit"] {
@@ -84,4 +86,6 @@ input[type="submit"] {
   font-weight: 100;
   letter-spacing: 10px;
   cursor: pointer;
+  font-family: "Acrom W00 Bold";
+
 }

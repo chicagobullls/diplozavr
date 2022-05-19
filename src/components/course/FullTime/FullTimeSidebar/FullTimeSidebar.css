@@ -10,6 +10,8 @@
 
 .documentsLink {
     text-decoration: none;
-    color: black;
     margin-top: 10px;
+    font-family: "Acrom W00 Bold";
+    font-size: 15px;
+    color: #272727;
 }

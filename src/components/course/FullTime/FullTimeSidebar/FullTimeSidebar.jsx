@@ -5,8 +5,8 @@ import './FullTimeSidebar.css'
 const FullTimeSidebar = () => {
     return (
         <div className="sidebar">
-            <NavLink className='documentsLink' to='/FullTime'>1.Списки</NavLink>
-            <NavLink className='documentsLink' to='/FullTime/Documents'>2.Документы</NavLink>
+            <NavLink className='documentsLink' to='/FullTime'>CПИСКИ</NavLink>
+            <NavLink className='documentsLink' to='/FullTime/Documents'>ДОКУМЕНТЫ</NavLink>
         </div>
     );
 };

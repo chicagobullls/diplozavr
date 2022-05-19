@@ -6,7 +6,7 @@ const Switch = () => {
     return (
         <div className='switch_wrapp'>
             <div className="switch_container">
-                <div className="switch_title">Выберите роль</div>
+                <div className="switch_title">ВЫБЕРИТЕ РОЛЬ</div>
                 <div className="switch_btn">
                     <NavLink to="/registration" className="switch_navlink">Студент</NavLink>
                     <NavLink to="/registration/proffesors" className="switch_navlink">Руководитель кружка</NavLink>

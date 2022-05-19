@@ -54,7 +54,7 @@ const Registration = () => {
     return (
         <div className='regContainer'>
             <div className="regWrapp">
-                <div className="regTitle">Регистрация</div>
+                <div className="regTitle">РЕГИСТРАЦИЯ</div>
                 <form className='form' onSubmit={handleSubmit(onSubmit)}>
 
                     <label>Выберите конкурс:</label>

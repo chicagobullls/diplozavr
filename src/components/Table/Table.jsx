@@ -47,7 +47,7 @@ const Table = ({ columns, data, }) => {
     return (
         <MaterialTable
             icons={tableIcons}
-            title="5-6 класс"
+            title="5 - 6 классы"
             columns={columns}
             data={data}
             editable={{

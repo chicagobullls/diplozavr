@@ -9,13 +9,13 @@ const Footer = () => {
             <div className='footer'>
                 <div className="footer_logoBlock">
                     <div className="footer_logo"><img src={Logo_white} className='nsuLogo' alt="" /></div>
-                    <span className='year'>© 2001–2022</span>
+                    <span className='year'>© 2022 Новосибирский государственный университет</span>
                     {/* <span>Высший колледж информатики НГУ</span> */}
                 </div>
                 <div className="footer_informationBlock">
                     <span>Телефон: +7 (383) 373-11-62</span>
                     <span>Е-mail:<a className='link' href="gen@ci.nsu.ru">gen@ci.nsu.ru</a></span>
-                    <span>Адрес: 630058, г. Новосибирск, ул. Русская, 35</span>
+                    <span>630090, Новосибирск, ул. Пирогова, 1</span>
                 </div>
                 <div className="footer_navblock">
                     <div className="footer_navblockOne">

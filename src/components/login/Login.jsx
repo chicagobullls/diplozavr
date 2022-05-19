@@ -10,7 +10,7 @@ const Login = () => {
     return (
         <div className='login_wrapp'>
             <div className="container">
-                <div className="login_title"><span>Авторизация</span></div>
+                <div className="login_title"><span>АВТОРИЗАЦИЯ</span></div>
                 <form className='log_form' onSubmit={handleSubmit(onSubmit)}>
 
                     <label>Email:</label>

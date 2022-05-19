@@ -1,4 +1,4 @@
-.Tabs{
+.Tabs {
     counter-reset: css-counter 0;
     width: 100px;
     height: 400px;
@@ -7,7 +7,8 @@
     align-items: center;
     background-color: rgb(241, 241, 241)
 }
-.Tab{
+
+.Tab {
     width: 250px;
     background-color: rgb(241, 241, 241);
     display: flex;
@@ -17,7 +18,8 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.Tab_active{
+
+.Tab_active {
     width: 250px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -28,12 +30,16 @@
     cursor: pointer;
 }
 
-.title{
+.title {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     width: 150px;
+    font-family: "Acrom W00 Bold";
+    color: #272727;
+    width: bold;
 }
-.Tab::before{
+
+.Tab::before {
     content: counter(css-counter);
     width: 60px;
     height: 60px;
@@ -45,7 +51,8 @@
     color: white;
     font-size: 25px;
 }
-.Tab_active::before{
+
+.Tab_active::before {
     content: counter(css-counter);
     width: 60px;
     height: 60px;

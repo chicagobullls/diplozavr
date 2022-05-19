@@ -4,9 +4,9 @@ import "./Slider.css";
 
 const slideArray = [
   {
-    img: "https://www.nsu.ru/upload/iblock/32e/Frame%201.png",
-    text: "slide 1",
-    info: "читайте дальше"
+    img: "https://sun9-35.userapi.com/s/v1/ig2/vyNksY-SBhxpmsHMa07T7mk_o_ssuoG8bvVyWSfYhCOItO3U3dtlcQv2_dtIDIgM4UN4Fy_I1nvp81bEgO5Rjcf6.jpg?size=1920x1080&quality=95&type=album",
+    text: "",
+    info: "25-27 МАРТА В НГУ СОСТОЯЛАСЬ XLIX СИБИРСКАЯ ГЕОЛОГИЧЕСКАЯ ОЛИМПИАДА ШКОЛЬНИКОВ"
   },
   {
     img: "https://www.nsu.ru/upload/iblock/515/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80_%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5.jpg",
