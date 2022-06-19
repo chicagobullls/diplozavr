@@ -62,7 +62,7 @@ const Registration = () => {
                         required: 'Выберите конкурс!',
                     })}>
                         <option value="">...</option>
-                        <option value="fullTime">Очный конкурсыыыыы</option>
+                        <option value="fullTime">Очный конкурc</option>
                         <option value="correspodence">Заочный конкурс</option>
                     </select>
                     {errors.course && <p>{errors.course.message}</p>}
